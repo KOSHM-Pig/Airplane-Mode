@@ -1,0 +1,40 @@
+{
+  "hash": "6a43c480",
+  "configHash": "7948578a",
+  "lockfileHash": "954ec4ff",
+  "browserHash": "72f41e31",
+  "optimized": {
+    "cesium": {
+      "src": "../../node_modules/cesium/Source/Cesium.js",
+      "file": "cesium.js",
+      "fileHash": "f93c2c39",
+      "needsInterop": false
+    },
+    "pinia": {
+      "src": "../../node_modules/pinia/dist/pinia.mjs",
+      "file": "pinia.js",
+      "fileHash": "ae23325a",
+      "needsInterop": false
+    },
+    "vue": {
+      "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "e8ac6c7e",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../node_modules/vue-router/dist/vue-router.mjs",
+      "file": "vue-router.js",
+      "fileHash": "c7399f94",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-5QRJQEQG": {
+      "file": "chunk-5QRJQEQG.js"
+    },
+    "chunk-7D4SUZUM": {
+      "file": "chunk-7D4SUZUM.js"
+    }
+  }
+}
