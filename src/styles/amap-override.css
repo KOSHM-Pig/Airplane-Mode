@@ -1,0 +1,45 @@
+/* 高德地图天空颜色覆盖样式 - RGB(42,42,42) */
+
+/* 强制设置地图容器背景为深灰色 */
+#gaode-map,
+.amap-container,
+.amap-3d-container {
+  background: rgb(42, 42, 42) !important;
+}
+
+/* 覆盖所有canvas元素 */
+#gaode-map canvas,
+.amap-container canvas {
+  background: rgb(42, 42, 42) !important;
+}
+
+/* WebGL天空颜色滤镜 - 将蓝色转换为深灰色 */
+#gaode-map canvas[style*="position: absolute"],
+#gaode-map canvas[style*="z-index"] {
+  filter: brightness(0.2) contrast(1.2) !important;
+}
+
+/* 3D地图特殊处理 */
+.amap-3d canvas {
+  filter: brightness(0.2) contrast(1.2) !important;
+}
+
+/* 天空图层直接覆盖 */
+.amap-sky-layer,
+.amap-sky {
+  background: rgb(42, 42, 42) !important;
+  filter: brightness(0.2) contrast(1.2) !important;
+}
+
+/* WebGL上下文背景色覆盖 */
+canvas[data-engine="webgl"],
+canvas[data-engine="webgl2"] {
+  background: rgb(42, 42, 42) !important;
+}
+
+/* 确保在所有情况下都显示深灰色天空 */
+body #gaode-map * {
+  --sky-color: rgb(42, 42, 42) !important;
+  --sky-gradient-top: rgb(42, 42, 42) !important;
+  --sky-gradient-bottom: rgb(42, 42, 42) !important;
+}

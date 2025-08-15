@@ -1,8 +1,0 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- 飞机主体 -->
-  <path d="M16 2L18 8L28 12L18 14L16 30L14 14L4 12L14 8L16 2Z" fill="#00d4ff" stroke="#ffffff" stroke-width="1"/>
-  <!-- 飞机尾翼 -->
-  <path d="M16 26L12 28L16 30L20 28L16 26Z" fill="#0099cc"/>
-  <!-- 飞机机翼 -->
-  <ellipse cx="16" cy="12" rx="12" ry="2" fill="#00d4ff" opacity="0.8"/>
-</svg>

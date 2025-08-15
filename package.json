@@ -1,0 +1,29 @@
+{
+  "name": "airplanemode-gaode",
+  "version": "1.0.0",
+  "description": "Vue3 + 高德地图应用",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "android": "cap run android",
+    "android:build": "npm run build && cap copy android && cap run android",
+    "android:release": "npm run build && cap copy android && cap build android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.5.1",
+    "@capacitor/app": "^5.0.6",
+    "@capacitor/core": "^5.5.1",
+    "@capacitor/haptics": "^5.0.6",
+    "@capacitor/keyboard": "^5.0.6",
+    "@capacitor/status-bar": "^5.0.6",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.5.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.9.2",
+    "vite": "^4.4.5"
+  }
+}
